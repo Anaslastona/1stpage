@@ -1,0 +1,14 @@
+html, body {
+    /* vh = viewport height / window height */
+    min-height: 100vh;
+}
+body{
+    background-color: rgb(27, 1, 59);
+    color:aqua ;
+    margin-top: auto;
+    text-align: center;
+    grid-template-rows: auto 1fr auto;
+}
+.logo{
+    width: 100px; 
+}
